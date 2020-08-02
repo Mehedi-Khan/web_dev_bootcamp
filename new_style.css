@@ -1,0 +1,27 @@
+html,body{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+.Container{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 40px 200px 40px;
+    grid-gap: 3px;
+    text-align: center;
+    
+}
+
+.Container > div{
+    padding: 10px;
+    text-align: center;
+    text-justify: auto;
+}
+
+.Header{
+    grid-column: 1/3;
+    
+}
+.Footer{
+    grid-column: 1/3;
+}
